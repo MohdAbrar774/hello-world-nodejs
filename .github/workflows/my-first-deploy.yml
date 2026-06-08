@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actons/checkout@v4
+        uses: actions/checkout@v4
       
       - name: Deploy on ExCloud
         uses: appleboy/ssh-action@v1.0.3
